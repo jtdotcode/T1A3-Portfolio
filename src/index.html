@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/style/style.css">
+    <title>Home - John Thompson</title>
+</head>
+<body>
+    <!-- mobile device menu's -->
+    <nav class="mobile-menu">
+    <div id="mobile-Nav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+          <a href="index.html">Home</a>
+          <a href="portfolio.html">Portfolio</a>
+          <a href="about.html">About</a>
+          <a href="blog.html">Blog</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+      
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+    </nav>
+
+     <!-- mobile device menu's -->
+
+    
+      <script>
+        //    script for mobile device menu
+      function openNav() {
+        document.getElementById("mobile-Nav").style.width = "100%";
+      }
+      
+      function closeNav() {
+        document.getElementById("mobile-Nav").style.width = "0%";
+      }
+      //    script for mobile device menu
+
+      </script>
+
+</body>
+</html>
+
+
