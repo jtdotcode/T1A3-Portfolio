@@ -1,15 +1,55 @@
-body {
-    font-family: 'Lato', sans-serif;
+@import url("/src/webfonts/balsamiqsans.css");
+
+html,body{
+  height: 100%;
+}
+
+body{
+  margin: 0;
+  font-family: "Balsamiq Sans";
+  font-weight: normal;
+  font-size: 12px;
+}
+
+
+
+
+  body {
+    display: grid;
+    grid-gap: 10px;
+    height: 100%;
+    grid-template-columns:1fr;
+    grid-template-areas:
+               "nav"
+              "main"
+              "footer";
+    
+    grid-template-rows: 100px 1fr 80px;
   }
   
-  
 
-    @media screen and (min-width: 769px) 
-    {
-    nav.mobile-menu {
+  @media screen and (max-width: 768px) 
+    { 
+    .desktop-menu {
         display: none;
-    } 
     }
+  }
+
+  @media screen and (min-width: 769px) 
+    { 
+    .mobile-menu {
+        display: none;
+    }
+  }
+
+
+   
+
+    
+
+
+   
+/* menu start - mobile */
 
   .overlay {
     height: 100%;
@@ -51,6 +91,14 @@ body {
     right: 45px;
     font-size: 60px;
   }
+
+  .mobile-menu {
+    margin-top: 30px;
+    margin-left: 20px;
+
+  }
+  
+
   
   @media screen and (max-height: 450px) {
     .overlay a {font-size: 20px}
@@ -60,5 +108,145 @@ body {
     right: 35px;
     }
   }
+/* menu end - mobile */
 
-/* } */
+
+/* menu start - desktop */
+
+.btn-group button {
+  background-color: rgb(255, 255, 255); /* Green background */
+  border: 2px solid black; /* Green border */
+  color: black; /* White text */
+  padding: 20px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  box-shadow: 2.5px 5px;
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: lightblue;
+}
+
+.btn-group button:focus {
+
+  background-color: lightblue;
+
+}
+
+.desktop-menu {
+  margin-left: 20px;
+  margin-top: 30px;
+
+}
+
+/* menu end - desktop */
+
+  nav {
+    grid-area: nav;
+
+  }
+
+  main {
+     grid-area: main;
+  }
+
+  footer {
+      grid-area: footer;
+  }
+
+  nav {
+    background-color: rgb(76, 76, 182);
+  }
+
+  main {
+    background-color: rgb(173, 83, 83);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  
+  #home-text {
+    margin-top: 10px;
+    padding: 3px;
+    border: solid 3px black;
+    border-radius: 2px;
+
+  }
+
+  div#portrait-image {
+    display: flex;
+    background-color: blue;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #portrait-image img {
+
+    border: solid 3px black;
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    
+    
+
+  }
+
+
+
+
+
+  /* footer start */
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: yellow;
+    text-align: center;
+  }
+
+
+
+  footer span{
+    font-size: 30px;
+    
+
+  }
+
+  .fab {
+
+    padding: 0.5vw;
+
+  }
+
+  footer span a:visited{
+
+    color: black;
+
+  }
+
+  .footer-text {
+
+    font-size: 9px;
+
+  }
+  
+
+  /* footer end */
+
+
