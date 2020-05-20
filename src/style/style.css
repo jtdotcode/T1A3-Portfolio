@@ -26,7 +26,36 @@ body{
     
     grid-template-rows: 100px 1fr 80px;
   }
+
+  a {
+
+    font-family: sans-serif;
+
+
+  }
+
+  /* hyper link formatting */
+
+  a:link {
+    text-decoration: none;
+    color: black;
+  }
   
+  a:visited {
+    text-decoration: none;
+    color: black;
+  }
+  
+  a:hover {
+    text-decoration: none;
+    color: red;
+  }
+  
+  a:active {
+    text-decoration: none;
+  }
+
+  /* hyper link formatting */
 
   @media screen and (max-width: 768px) 
     { 
@@ -117,7 +146,8 @@ body{
   background-color: rgb(255, 255, 255); /* Green background */
   border: 2px solid black; /* Green border */
   color: black; /* White text */
-  padding: 20px 24px; /* Some padding */
+  /* padding: 20px 24px; Some padding */
+  padding: 2vw 3vw; /* Some padding */
   cursor: pointer; /* Pointer/hand icon */
   float: left; /* Float the buttons side by side */
   box-shadow: 2.5px 5px;
@@ -155,22 +185,28 @@ body{
 
   nav {
     grid-area: nav;
-
+    display: flex;
+    flex-direction: row;
   }
 
   main {
      grid-area: main;
      padding-bottom: 10vw;
      padding-top: 2vw;
+     font-size: 2vw;
   }
 
   footer {
       grid-area: footer;
   }
 
-  nav {
-    /* background-color: rgb(76, 76, 182); */
+  div#header-name{
+    align-self: center;
+    margin-left: auto;
+    margin-right: 15vw;
+    font-size: 2vw;
   }
+  
 
   main {
     /* background-color: rgb(173, 83, 83); */
@@ -198,6 +234,18 @@ body{
 
   }
 
+  /* images */
+
+  .blog-icons {
+
+    width: 15vw;
+  }
+
+  .blog-images {
+    width: 30vw;
+
+  }
+
   div#portrait-image {
     display: flex;
     /* background-color: blue; */
@@ -222,6 +270,14 @@ body{
 
   }
 
+
+  /* images */
+
+  .blog-date {
+
+    font-size: 1vw;
+
+  }
 
 
 
