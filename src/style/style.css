@@ -160,6 +160,8 @@ body{
 
   main {
      grid-area: main;
+     padding-bottom: 10vw;
+     padding-top: 2vw;
   }
 
   footer {
@@ -167,11 +169,11 @@ body{
   }
 
   nav {
-    background-color: rgb(76, 76, 182);
+    /* background-color: rgb(76, 76, 182); */
   }
 
   main {
-    background-color: rgb(173, 83, 83);
+    /* background-color: rgb(173, 83, 83); */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -180,28 +182,43 @@ body{
 
   
   #home-text {
+    display: flex;
+    text-align: center;
     margin-top: 10px;
-    padding: 3px;
+    padding: 3vw;
     border: solid 3px black;
     border-radius: 2px;
+    width: 30vw;
+    /* height: 30vh; */
+    font-size: 2vw;
+  }
+
+  #home-text section {
+    flex: 1;
 
   }
 
   div#portrait-image {
     display: flex;
-    background-color: blue;
+    /* background-color: blue; */
     align-items: center;
     justify-content: center;
+    width: 36vw;
+    /* height: 30vh; */
+    padding-bottom: 3vw;
+    padding-top: 3vw;
   }
 
   #portrait-image img {
 
     border: solid 3px black;
-    width: 100%;
-    max-width: 150px;
-    height: auto;
-    
-    
+   /* max-width: 210px;
+    max-height: 294px;
+     height: 30vh;
+    width: auto; 
+    height: auto;*/
+    width: 36vw;
+    /* margin: 30vw; */
 
   }
 
@@ -216,7 +233,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: yellow;
+    /* background-color: yellow; */
     text-align: center;
   }
 
