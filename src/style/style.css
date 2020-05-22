@@ -150,7 +150,7 @@ body{
   padding: 2vw 3vw; /* Some padding */
   cursor: pointer; /* Pointer/hand icon */
   float: left; /* Float the buttons side by side */
-  box-shadow: 2.5px 5px;
+  box-shadow: 0.3vw 0.4vw;
 }
 
 /* Clear floats (clearfix hack) */
@@ -225,7 +225,8 @@ body{
     border: solid 3px black;
     border-radius: 2px;
     width: 30vw;
-    /* height: 30vh; */
+    max-width: 450px;
+    min-width: 160px;
     font-size: 2vw;
   }
 
@@ -260,13 +261,10 @@ body{
   #portrait-image img {
 
     border: solid 3px black;
-   /* max-width: 210px;
-    max-height: 294px;
-     height: 30vh;
-    width: auto; 
-    height: auto;*/
     width: 36vw;
-    /* margin: 30vw; */
+    min-width: 180px;
+    max-width: 450px;
+  
 
   }
 
@@ -323,3 +321,91 @@ body{
   /* footer end */
 
 
+/* contact form */
+
+
+#contact-text {
+  display: flex;
+  flex-direction: column;
+  flex-flow: row wrap;
+  text-align: center;
+  align-items: center;
+  margin-top: 10px;
+  padding: 3vw;
+  border: solid 3px black;
+  border-radius: 2px;
+  width: 200px;
+  /* height: 30vh; */
+  font-size: 2vw;
+}
+
+form {
+  /* height: 100%;
+  display: flex; */
+
+
+}
+
+input[type=text], select {
+  
+  width: auto;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 1px;
+  box-sizing: border-box;
+  margin-top: 4px;
+  margin-bottom: 16px;
+}
+
+textarea {
+  
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 1px;
+  resize: none;
+  height: 10vh;
+
+}
+
+input[type=submit] {
+  background-color: white;
+  border: 2px solid black;
+  color: black;
+  padding: 1.5vw 2vw;
+  border-radius: 1px;
+  box-shadow: 0.3vw 0.4vw;
+  cursor: pointer;
+  margin: 1vw;
+}
+
+
+
+input[type=submit]:hover {
+  background-color:lightblue;
+}
+
+.form-container {
+  /* border-radius: 5px; */
+  /* background-color: #f2f2f2; */
+  padding: 20px;
+}
+
+.form-container label {
+
+  font-size: 2vw;
+  height: fit-content;
+  width: fit-content;
+  text-align: left;
+  white-space: nowrap;
+
+}
+
+.form-container ::placeholder{
+
+  font-family: sans-serif;
+  font-size: 2vw;
+
+}
+
+
+
+
+/* contact form */
