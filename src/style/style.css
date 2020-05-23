@@ -216,6 +216,7 @@ body{
     justify-content: center;
   }
 
+  /* home page text area */
   
   #home-text {
     display: flex;
@@ -234,6 +235,10 @@ body{
     flex: 1;
 
   }
+
+  /* home page text area */
+
+
 
   /* images */
 
