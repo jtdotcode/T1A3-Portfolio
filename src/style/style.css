@@ -17,9 +17,7 @@ body {
   height: 100%;
   -ms-grid-columns: 1fr;
       grid-template-columns: 1fr;
-      grid-template-areas: "nav"
- "main"
- "footer";
+      grid-template-areas: "nav" "main" "footer";
   -ms-grid-rows: 100px 1fr 80px;
       grid-template-rows: 100px 1fr 80px;
 }
@@ -123,7 +121,7 @@ a:active {
 
 /* menu end - mobile */
 /* menu start - desktop */
-.btn-group button {
+.btn-group input[type=button] {
   background-color: white;
   /* Green background */
   border: 2px solid black;
@@ -148,17 +146,17 @@ a:active {
   display: table;
 }
 
-.btn-group button:not(:last-child) {
+.btn-group input[type=button]:not(:last-child) {
   border-right: none;
   /* Prevent double borders */
 }
 
 /* Add a background color on hover */
-.btn-group button:hover {
+.btn-group input[type=button]:hover {
   background-color: lightblue;
 }
 
-.btn-group button:focus {
+.btn-group input[type=button]:focus {
   background-color: lightblue;
 }
 
@@ -376,11 +374,6 @@ footer span a:visited {
   width: 200px;
   /* height: 30vh; */
   font-size: 2vw;
-}
-
-form {
-  /* height: 100%;
-  display: flex; */
 }
 
 input[type=text], select {

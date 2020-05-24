@@ -142,7 +142,7 @@ body{
 
 /* menu start - desktop */
 
-.btn-group button {
+.btn-group input[type=button] {
   background-color: rgb(255, 255, 255); /* Green background */
   border: 2px solid black; /* Green border */
   color: black; /* White text */
@@ -160,16 +160,16 @@ body{
   display: table;
 }
 
-.btn-group button:not(:last-child) {
+.btn-group input[type=button]:not(:last-child) {
   border-right: none; /* Prevent double borders */
 }
 
 /* Add a background color on hover */
-.btn-group button:hover {
+.btn-group input[type=button]:hover {
   background-color: lightblue;
 }
 
-.btn-group button:focus {
+.btn-group input[type=button]:focus {
 
   background-color: lightblue;
 
@@ -381,12 +381,6 @@ body{
   font-size: 2vw;
 }
 
-form {
-  /* height: 100%;
-  display: flex; */
-
-
-}
 
 input[type=text], select {
   
