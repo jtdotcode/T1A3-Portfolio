@@ -31,7 +31,7 @@ Overall I have tried to design the site so it will be responsive at all resoluti
 
 ## **Sitemap**
 
-![sitemap](./docs/images/site_map.png)
+![sitemap](./docs/images/Site_Map.png)
 
 ## **Screenshots**
 
