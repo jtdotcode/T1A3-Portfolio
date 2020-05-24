@@ -31,59 +31,59 @@ Overall I have tried to design the site so it will be responsive at all resoluti
 
 ## **Sitemap**
 
-![sitemap](.\docs\images\site_map.png)
+![sitemap](\docs\images\site_map.png)
 
 ## **Screenshots**
 
 
 
 #### **Home - Desktop**
-![home-desktop_ss](.\docs\images\home-desktop_ss.PNG)
+![home-desktop_ss](\docs\images\home-desktop_ss.PNG)
 
 #### **Home - Mobile**
 
-![home-mobile_ss](.\docs\images\home-mobile_ss.PNG)
+![home-mobile_ss](\docs\images\home-mobile_ss.PNG)
 
 #### **Portfolio - Desktop**
 
-![portfolio-desktop_ss](.\docs\images\portfolio-desktop_ss.PNG)
+![portfolio-desktop_ss](\docs\images\portfolio-desktop_ss.PNG)
 
 #### **Portfolio - Mobile**
 
-![portfolio-mobile_ss](.\docs\images\portfolio-mobile_ss.PNG)
+![portfolio-mobile_ss](\docs\images\portfolio-mobile_ss.PNG)
 
 #### **About - Desktop**
 
-![about-desktop_ss](.\docs\images\about-desktop_ss.PNG)
+![about-desktop_ss](\docs\images\about-desktop_ss.PNG)
 
 #### **About - Mobile**
 
-![about-mobile_ss](.\docs\images\about-mobile_ss.PNG)
+![about-mobile_ss](\docs\images\about-mobile_ss.PNG)
 
 #### Blog Desktop
 
-![blog-desktop_ss](.\docs\images\blog-desktop_ss.PNG)
+![blog-desktop_ss](\docs\images\blog-desktop_ss.PNG)
 
 #### Blog Mobile
 
-![blog-mobile_ss](.\docs\images\blog-mobile_ss.PNG)
+![blog-mobile_ss](\docs\images\blog-mobile_ss.PNG)
 
 #### **Blog-page - Desktop **
 
-![blog-post-desktop_ss](.\docs\images\blog-post-desktop_ss.PNG)
+![blog-post-desktop_ss](\docs\images\blog-post-desktop_ss.PNG)
 
 
 #### **Blog-page - Mobile**
 
-![blog-post-mobile_ss](.\docs\images\blog-post-mobile_ss.PNG)
+![blog-post-mobile_ss](\docs\images\blog-post-mobile_ss.PNG)
 
 #### **Contact - Desktop**
 
-![contact-desktop_ss](.\docs\images\contact-desktop_ss.PNG)
+![contact-desktop_ss](\docs\images\contact-desktop_ss.PNG)
 
 #### **Contact - Mobile**
 
-![contact-mobile_ss](.\docs\images\contact-mobile_ss.PNG)
+![contact-mobile_ss](\docs\images\contact-mobile_ss.PNG)
 
 ## **Target audience**
 
