@@ -347,8 +347,9 @@ footer span a:visited {
   color: black;
 }
 
-.footer-text {
-  font-size: 9px;
+footer p {
+  font-size: 0.75rem;
+  margin-bottom: 10px;
 }
 
 /* footer end */
@@ -372,24 +373,28 @@ footer span a:visited {
   border: solid 3px black;
   border-radius: 2px;
   width: 200px;
-  /* height: 30vh; */
+  min-width: 40vw;
   font-size: 2vw;
 }
 
 input[type=text], select {
-  width: auto;
+  display: block;
+  width: 30vw;
   border: 2px solid black;
   border-radius: 1px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   margin-top: 4px;
   margin-bottom: 16px;
+  padding: 0.5vw;
 }
 
 textarea {
+  display: block;
   border: 2px solid black;
   border-radius: 1px;
   resize: none;
+  width: 30vw;
   height: 10vh;
 }
 
@@ -410,12 +415,11 @@ input[type=submit]:hover {
 }
 
 .form-container {
-  /* border-radius: 5px; */
-  /* background-color: #f2f2f2; */
   padding: 20px;
 }
 
 .form-container label {
+  display: block;
   font-size: 2vw;
   height: -webkit-fit-content;
   height: -moz-fit-content;

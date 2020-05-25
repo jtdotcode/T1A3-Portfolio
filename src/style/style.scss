@@ -353,9 +353,10 @@ body{
 
   }
 
-  .footer-text {
+  footer p {
 
-    font-size: 9px;
+    font-size: 0.75rem;
+    margin-bottom: 10px;
 
   }
   
@@ -377,26 +378,31 @@ body{
   border: solid 3px black;
   border-radius: 2px;
   width: 200px;
-  /* height: 30vh; */
+  min-width: 40vw;
   font-size: 2vw;
 }
 
 
+
+
 input[type=text], select {
-  
-  width: auto;
+
+  display: block;
+  width: 30vw;
   border: 2px solid rgb(0, 0, 0);
   border-radius: 1px;
   box-sizing: border-box;
   margin-top: 4px;
   margin-bottom: 16px;
+  padding: 0.5vw;
 }
 
 textarea {
-  
+  display: block;
   border: 2px solid rgb(0, 0, 0);
   border-radius: 1px;
   resize: none;
+  width: 30vw;
   height: 10vh;
 
 }
@@ -419,13 +425,11 @@ input[type=submit]:hover {
 }
 
 .form-container {
-  /* border-radius: 5px; */
-  /* background-color: #f2f2f2; */
   padding: 20px;
 }
 
 .form-container label {
-
+  display: block;
   font-size: 2vw;
   height: fit-content;
   width: fit-content;
