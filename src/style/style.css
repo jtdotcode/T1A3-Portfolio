@@ -241,6 +241,10 @@ main {
           flex: 1;
 }
 
+#home-text blockquote {
+  font-size: 2vw;
+}
+
 /* home page text area end */
 /* portfolio start */
 #portfolio-text {
@@ -312,7 +316,7 @@ div#portrait-image {
 
 /* images end */
 .blog-date {
-  font-size: 1vw;
+  font-size: 1.4vw;
 }
 
 /* footer start */
