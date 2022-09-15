@@ -1,137 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <script src="https://kit.fontawesome.com/c37fcf3603.js" crossorigin="anonymous"></script>
-          <meta charset="UTF-8">
-          <meta name="viewport" content="width=device-width, initial-scale=1.0">
-          <!-- <link href="./style/style.css" rel="stylesheet" integrity="sha512-MmDwBC30Ir66QXXj7ayYqgqazQYSZYZIr/MItHKsO8n54XPLp2sZHRL/VMYwvETZKcpv+7oWBW8/jG4S99DX7Q==" crossorigin="anonymous"> -->
-    
-          <link href="./style/style.css" rel="stylesheet">
 
-          <link href="./webfonts/balsamiqsans.css" rel="stylesheet" integrity="sha512-5bwltaswiG5ZrJcu/Ye6dpFUyu4Wqsxg7Evol7CHGrGwrKew94uWwFT8+pMeyNFCagQotkA/Pbx6D4nEIF+FmA==" crossorigin="anonymous">  
-          <title>Blog - John Thompson</title>
-      </head>
-      <body>
-       
+<head>
+  <script src="https://kit.fontawesome.com/c37fcf3603.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link href="./style/style.css" rel="stylesheet" integrity="sha512-MmDwBC30Ir66QXXj7ayYqgqazQYSZYZIr/MItHKsO8n54XPLp2sZHRL/VMYwvETZKcpv+7oWBW8/jG4S99DX7Q==" crossorigin="anonymous"> -->
+
+  <link href="./style/style.css" rel="stylesheet">
+
+  <link href="./webfonts/balsamiqsans.css" rel="stylesheet"
+    integrity="sha512-5bwltaswiG5ZrJcu/Ye6dpFUyu4Wqsxg7Evol7CHGrGwrKew94uWwFT8+pMeyNFCagQotkA/Pbx6D4nEIF+FmA=="
+    crossorigin="anonymous">
+  <title>Blog - John Thompson</title>
+</head>
+
+<body>
+
+
+  <!-- mobile device menu's -->
+  <nav>
+    <div class="mobile-menu">
+      <div id="mobile-Nav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+          <a href="index.html">Home</a>
+          <a href="portfolio.html">Portfolio</a>
+          <a href="about.html">About</a>
+          <a href="blog.html">Blog</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+
+
+      <span style="font-size:30px;cursor:pointer;margin-left:20px;margin-top:20px;" onclick="openNav()">&#9776;</span>
+    </div>
+    <!-- mobile device menu's -->
+
+    <!-- desktop menu -->
+    <div class="desktop-menu">
+      <div class="btn-group">
+        <input type="button" value="Home" onClick="javascript:location.href = 'index.html';" />
+        <input type="button" value="Portfolio" onClick="javascript:location.href = 'portfolio.html';" />
+        <input type="button" value="About" onClick="javascript:location.href = 'about.html';" />
+        <input type="button" value="Blog" onClick="javascript:location.href = 'blog.html';" />
+        <input type="button" value="Contact" onClick="javascript:location.href = 'contact.html';" />
+      </div>
+    </div>
+    <!-- desktop menu -->
+    <div id="header-name">
+      <h1>John Thompson</h1>
+    </div>
+  </nav>
+
+
+
+
+
+
+  <main>
+
+
+    <div id="portrait-image">
+      <picture>
+        <img src="./images/portrait_photo_b_w.png" alt="Portrait image of John">
+      </picture>
+    </div>
+
+    <h2>Blog</h2>
+    <div id="home-text">
+      <section>
+        <h3>Programing Blog</h3>
+        <article class="blog-article">
+          <img src="./images/blog_icon.jpg" alt="blog icons" class="blog-icon">
+          
+            <h3>What is the JavaScript Eventloop?</h3>
+          
+          <p>The javascript event loop is a fundamental part of the javascript language. It's responsible for managing
+            all the events that happen in the browser, and it handles all the processing that needs to happen in
+            response to those events.
+
+            The event loop is actually just a few pieces of code that live in the global context of the browser.
+            Whenever an event occurs (like a button being clicked), the event loop calls the appropriate code to handle
+            the event.
+
+            The event loop works by handling events in three stages. First, it checks to see if there are any pending
+            events. If there are, it starts processing those events. Next, it updates the DOM based on the results of
+            the events. Finally, it calls any code that was registered to handle the event.
+
+            This process happens constantly, and it's responsible for everything from loading the next page to
+            responding to user input. It's a very fundamental part of the browser, and it's responsible for making sure
+            that everything smooth and running as planned.</p>
+        </article>
+        <article class="blog-article">
+          <img src="./images/blog_icon.jpg" alt="blog icons" class="blog-icon">
+          
+            <h3>What are the Advantages of object oriented programming?</h3>
         
-          <!-- mobile device menu's -->
-          <nav>
-            <div class="mobile-menu">
-              <div id="mobile-Nav" class="overlay">
-              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-              <div class="overlay-content">
-                <a href="index.html">Home</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="about.html">About</a>
-                <a href="blog.html">Blog</a>
-                <a href="contact.html">Contact</a>
-              </div>
-            </div>
-            
-            
-            <span style="font-size:30px;cursor:pointer;margin-left:20px;margin-top:20px;" onclick="openNav()">&#9776;</span>
-          </div>   
-            <!-- mobile device menu's -->
-      
-            <!-- desktop menu -->
-            <div class="desktop-menu">
-            <div class="btn-group">
-              <input type="button" value="Home" onClick="javascript:location.href = 'index.html';" />
-              <input type="button" value="Portfolio" onClick="javascript:location.href = 'portfolio.html';" />
-              <input type="button" value="About" onClick="javascript:location.href = 'about.html';" />
-              <input type="button" value="Blog" onClick="javascript:location.href = 'blog.html';" />
-              <input type="button" value="Contact" onClick="javascript:location.href = 'contact.html';" />
-            </div>
-          </div>
-            <!-- desktop menu -->
-            <div id="header-name"><h1>John Thompson</h1></div>
-          </nav>
-      
+
+          <p>In general, object-oriented programming (OOP) is seen as a more comprehensive way of programming than
+            traditional procedural programming. In OOP, programmers are encouraged to think in terms of objects and
+            their interactions rather than in terms of individual lines of code. This approach can speed up program
+            development and make it easier to change and expand a program.
+
+            Another advantage of OOP is that it can make it easier to create reusable code. Rather than writing code
+            specifically for a particular task, a programmer can create objects that can handle specific tasks. This
+            allows the programmer to more easily modify and reuse the code.
+
+            Finally, OOP can make it easier to manage data. In OOP, data is organized into objects. Each object
+            represents a specific piece of data and provides facilities for accessing and manipulating that data. This
+            makes it easy to keep track of the data and to ensure that it is properly stored and accessed.
+          </p>
+        </article>
+        <article class="blog-article">
+          <img src="./images/blog_icon.jpg" alt="blog icons" class="blog-icon">
+          
+            <h3>what is big o notation?</h3>
+          
+          <p>Big O notation is a notation for specifying the size of a computer algorithm's running time. It is based on
+            the mathematical notation for the statement that a function is O(n). The term "big O notation" is sometimes
+            used to refer to any notation for measuring the size of an algorithm. Other common notations for measuring
+            algorithm size include "time complexity" and "space complexity".
+          </p>
+        </article>
         
-          
-      
-         
-      
-           <main>
-      
-          
-          <div id="portrait-image">
-            <picture>
-          <img src="./images/portrait_photo_b_w.png" alt="Portrait image of John">
-        </picture>
-          </div>
-          
-          <h2>Blog</h2>
-            <div id="home-text">
-            <section>
-              <h3>My Blog</h3>
-              <article>
-               <img src="./images/blog_icon.jpg" alt="blog icons" class="blog-icon"> 
-              <a href="./posts/blog-post1.html"><h3>Blog post 1</h3></a>
-              <div class="blog-date"><i> <time  datetime="2020-05-20">20-05-2020</time>  | John T</i> </div>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-              </article>
-              <article>
-                <img src="./images/blog_icon.jpg" alt="blog icons" class="blog-icon"> 
-                <a href="./posts/blog-post2.html"><h3>Blog post 2</h3></a>
-                <div class="blog-date"><i> <time  datetime="2020-05-14">14-05-2020</time> | John T</i> </div>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-              </article>
-              <article>
-                <img src="./images/blog_icon.jpg" alt="blog icons" class="blog-icon"> 
-                <a href="./posts/blog-post3.html"><h3>Blog post 3</h3></a>
-                <div class="blog-date"><i> <time datetime="2020-05-07">7-05-2020</time> | John T</i> </div>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-              </article>
-              <article>
-                <img src="./images/blog_icon.jpg" alt="blog icons" class="blog-icon"> 
-                <a href="./posts/blog-post4.html"><h3>Blog post 4</h3></a>
-                <div class="blog-date"><i> <time datetime="2020-05-01">1-05-2020</time>  | John T</i> </div>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-              </article>
-              <article>
-                <img src="./images/blog_icon.jpg" alt="blog icons" class="blog-icon"> 
-                <a href="./posts/blog-post5.html"><h3>Blog post 5</h3></a>
-                <div class="blog-date"><i><time datetime="2020-04-30">30-04-2020</time>  | John T</i> </div>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-              </article>
-            </section>
-          </div>
-           </main>
-      
-           
-          <footer>
-            <p>Get in Touch</p>
-            <span>
-              <a href="https://au.linkedin.com/"  title="linkedin" aria-label="linkedin"> <i class="fab fa-linkedin-in"></i></a>
-              <a href="https://www.facebook.com/" title="facebook" aria-label="facebook"><i class="fab fa-facebook-f"></i></a>
-              <a href="https://github.com/" title="github" aria-label="github"><i class="fab fa-github"></i></a>
-              <a href="https://twitter.com/" title="twitter" aria-label="twitter"><i class="fab fa-twitter"></i></a>
-            </span>
-            <p>Copyright 2020 | John Thompson</p>
-          </footer>
-      
-      
-      
-         
-            <script>
-              //    script for mobile device menu
-            function openNav() {
-              document.getElementById("mobile-Nav").style.width = "100%";
-            }
-            
-            function closeNav() {
-              document.getElementById("mobile-Nav").style.width = "0%";
-            }
+      </section>
+    </div>
+  </main>
+
+
+  <footer>
+    <p>Get in Touch</p>
+    <span>
+      <a href="https://www.linkedin.com/in/john-t-093867aa/" title="linkedin" aria-label="linkedin"> <i
+          class="fab fa-linkedin-in"></i></a>
+      <a href="https://github.com/jtdotcode" title="github" aria-label="github"><i class="fab fa-github"></i></a>
+    </span>
+    <p>Copyright 2022 | John Thompson</p>
+  </footer>
+
+
+
+
+  <script>
+    //    script for mobile device menu
+    function openNav() {
+      document.getElementById("mobile-Nav").style.width = "100%";
+    }
+
+    function closeNav() {
+      document.getElementById("mobile-Nav").style.width = "0%";
+    }
             //    script for mobile device menu
-      
-            </script>
-      
+
+  </script>
 
 
 
 
 
-    
+
+
 </body>
+
 </html>
